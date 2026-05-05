@@ -43,6 +43,7 @@ Issues = "https://github.com/ai-xcode/conjurer/issues"
 
 # ─────── ComfyUI Registry metadata (https://registry.comfy.org/) ───────
 [tool.comfy]
-PublisherId = "<your-comfy-publisher-id>"
+# Publisher slug from https://registry.comfy.org — same as the GitHub handle.
+PublisherId = "ai-xcode"
 DisplayName = "Conjurer"
 Icon = ""

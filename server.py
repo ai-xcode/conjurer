@@ -579,13 +579,17 @@ def _autofill_defaults(workflow: dict) -> int:
                     inp[k] = spec[1]["default"]
                     fills += 1
                 elif spec[0] == "BOOLEAN":
-                    inp[k] = False; fills += 1
+                    inp[k] = False
+                    fills += 1
                 elif spec[0] == "INT":
-                    inp[k] = 0; fills += 1
+                    inp[k] = 0
+                    fills += 1
                 elif spec[0] == "FLOAT":
-                    inp[k] = 0.0; fills += 1
+                    inp[k] = 0.0
+                    fills += 1
                 elif spec[0] == "STRING":
-                    inp[k] = ""; fills += 1
+                    inp[k] = ""
+                    fills += 1
             elif isinstance(spec, (list, tuple)) and spec and isinstance(spec[0], (list, tuple)):
                 # enumerated choice list — pick first option
                 if spec[0]:
