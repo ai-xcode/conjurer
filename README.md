@@ -12,6 +12,18 @@ API (DeepSeek, OpenAI, Anthropic, Grok, etc.).
 > ⭐ **If Conjurer saves you time, please star this repo** — that's the only
 > currency we accept. The whole project is free and stays free.
 
+## See it in action
+
+> *"make video of dog running in park"* → 30 seconds later, you have a video.
+
+| Step | What happens |
+|---|---|
+| ![Panel open](docs/screenshots/01-panel-open.png) | **1.** Click the **✨ Conjurer** button (top-right) — the chat panel slides in. Status banner shows you have 298 workflows + which LLMs are reachable. |
+| ![Typing prompt](docs/screenshots/02-typing-prompt.png) | **2.** Type a description in plain English — *"make video of dog running in park"* — and hit Send. |
+| ![Plan card](docs/screenshots/03-plan-card.png) | **3.** Conjurer picks the right workflow (`t2v_FAST_512p_1s_wan2.2-14B`), writes positive + negative prompts, explains *why* it picked that one. **Load to canvas**, **Load + Queue**, or **↓ JSON**. |
+| ![Rendering](docs/screenshots/04-rendering.png) | **4.** Workflow drops onto your canvas with prompts auto-filled. Queue starts — progress bar runs along the top. |
+| ![Video result](docs/screenshots/05-video-result.png) | **5.** Done. Inline video preview right in the canvas. The whole flow took ~30 seconds end-to-end. |
+
 ## What it does
 
 - **Render** — *"5 second cinematic family at golden hour"* → picks a video
