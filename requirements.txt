@@ -1,0 +1,4 @@
+# Conjurer runtime deps. Most of what we need (aiohttp, etc.) ships with ComfyUI.
+# This file exists for ComfyUI Manager auto-install.
+
+requests>=2.31

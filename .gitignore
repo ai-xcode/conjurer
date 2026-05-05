@@ -1,0 +1,8 @@
+.env
+venv/
+logs/
+pids/
+comfy_out/
+__pycache__/
+*.pyc
+.DS_Store
